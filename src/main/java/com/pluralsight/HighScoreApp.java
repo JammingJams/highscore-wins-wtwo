@@ -17,6 +17,9 @@ public class HighScoreApp {
         if (numOne > numTwo) {
             System.out.printf("Winner: %s",tempUser[0]);
         }
+        else if (numOne == numTwo) {
+            System.out.println("Nobody wins");
+        }
         else {
             System.out.printf("Winner: %s",tempUser[1]);
         }
